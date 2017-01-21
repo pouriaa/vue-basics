@@ -8,28 +8,16 @@
     
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.css">
     
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
 
     <div id="root">
-      <ul>
-        <h1>All</h1>
-        <li v-for="task in tasks" v-text="task.description"></li>
-        <h1>Incomplete</h1>
-        <li v-for="task in incompletedTasks" v-text="task.description"></li>
-      </ul>
+      <task-list></task-list>
 
-
-
-
-
-
-      <!-- 
-        {{ reversedMessage }}
-        
-      -->
     </div>
 
 
