@@ -18,7 +18,10 @@
 
 
     <div id="root" class="container">
-      <coupon></coupon>
+      <modal>
+        <template slot="header">fd</template>
+        Here is my main content
+      </modal>
     </div>
 
 
