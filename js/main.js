@@ -1,21 +1,37 @@
-Vue.component('modal', {
-	template: `
-	<div class="modal is-active">
-        <div class="modal-background"></div>
-        <div class="modal-content">
-          <div class="box">
-            <slot></slot>
-          </div>
-        </div>
-        <button class="modal-close" @click="$emit('close')"></button>
-      </div>
-    `
+window.Event = new class {
+	constructor {
+		this.vue = new Vue();
+	}
+
+	fire(event, data = null) {
+		this.vue.$emit(event, data);
+	}
+
+	listen(event, callback) {
+		this.vue.$on(event, callback);
+	}
+}
+
+
+Vue.component('coupon', {
+	template: '<input placeholder="coupon code" @click="onCouponApplied">',
+
+	methods: {
+		onCouponApplied() {
+			Event.fire('applied')
+		}
+	}
 });
+
 
 new Vue({
 	el: '#root',
 
 	data: {
-		showModal: false
+		couponApplied: false
+	},
+
+	created() {
+		Event.listen('applied', () => console.log('f'))
 	}
 });

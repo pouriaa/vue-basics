@@ -18,10 +18,7 @@
 
 
     <div id="root" class="container">
-      <modal v-if="showModal" @close="showModal=false">
-        <p>Any text</p>
-      </modal>
-      <button @click="showModal = true">Show Modal</button>
+      <coupon></coupon>
     </div>
 
 
