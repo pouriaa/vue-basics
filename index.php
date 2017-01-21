@@ -18,9 +18,10 @@
 
 
     <div id="root" class="container">
-      <message title="title" body="Lorem ipsum dolor sit amet, consectetur."></message>
-      <message title="this" body="Lorem ipsum dolor sit amet, consectetur."></message>
-      <message title="that" body="Lorem ipsum dolor sit amet, consectetur."></message>
+      <modal v-if="showModal" @close="showModal=false">
+        <p>Any text</p>
+      </modal>
+      <button @click="showModal = true">Show Modal</button>
     </div>
 
 
