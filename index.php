@@ -18,10 +18,12 @@
 
 
     <div id="root" class="container">
-      <modal>
-        <template slot="header">fd</template>
-        Here is my main content
-      </modal>
+      <progress-view inline-template>
+        <div>
+          <h1>Your progress is {{ completionPercentage }} %</h1>
+          <p><button @click="completionPercentage += 10">Update</button></p>
+        </div>
+      </progress-view>
     </div>
 
 
