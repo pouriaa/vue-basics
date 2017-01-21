@@ -15,9 +15,12 @@
   </head>
   <body>
 
-    <div id="root">
-      <task-list></task-list>
 
+
+    <div id="root" class="container">
+      <message title="title" body="Lorem ipsum dolor sit amet, consectetur."></message>
+      <message title="this" body="Lorem ipsum dolor sit amet, consectetur."></message>
+      <message title="that" body="Lorem ipsum dolor sit amet, consectetur."></message>
     </div>
 
 
