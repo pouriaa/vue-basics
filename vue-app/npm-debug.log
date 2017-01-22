@@ -1,0 +1,167 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'laravel-mix',
+1 verbose cli   '--save',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.8
+3 info using node@v4.4.7
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData laravel-mix
+8 silly fetchPackageMetaData dev
+9 silly fetchNamedPackageData laravel-mix
+10 silly mapToRegistry name laravel-mix
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'laravel-mix',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'laravel-mix',
+13 silly mapToRegistry   name: 'laravel-mix',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/laravel-mix
+15 silly fetchNamedPackageData dev
+16 silly mapToRegistry name dev
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'dev',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   escapedName: 'dev',
+19 silly mapToRegistry   name: 'dev',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/dev
+21 verbose get https://registry.npmjs.org/dev not expired, no request
+22 verbose get https://registry.npmjs.org/laravel-mix not expired, no request
+23 silly install normalizeTree
+24 silly loadCurrentTree Finishing
+25 silly loadIdealTree Starting
+26 silly install loadIdealTree
+27 silly cloneCurrentTree Starting
+28 silly install cloneCurrentTreeToIdealTree
+29 silly cloneCurrentTree Finishing
+30 silly loadShrinkwrap Starting
+31 silly install loadShrinkwrap
+32 silly loadShrinkwrap Finishing
+33 silly loadAllDepsIntoIdealTree Starting
+34 silly install loadAllDepsIntoIdealTree
+35 silly resolveWithNewModule dev@0.1.3 checking installable status
+36 silly cache add args [ 'dev', null ]
+37 verbose cache add spec dev
+38 silly resolveWithNewModule laravel-mix@0.5.1 checking installable status
+39 silly cache add args [ 'laravel-mix', null ]
+40 verbose cache add spec laravel-mix
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'dev',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'dev',
+41 silly cache add   name: 'dev',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed dev@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for dev
+44 info addNameTag [ 'dev', 'latest' ]
+45 silly mapToRegistry name dev
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'dev',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'dev',
+48 silly mapToRegistry   name: 'dev',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/dev
+50 verbose addNameTag registry:https://registry.npmjs.org/dev not in flight; fetching
+51 silly cache add parsed spec Result {
+51 silly cache add   raw: 'laravel-mix',
+51 silly cache add   scope: null,
+51 silly cache add   escapedName: 'laravel-mix',
+51 silly cache add   name: 'laravel-mix',
+51 silly cache add   rawSpec: '',
+51 silly cache add   spec: 'latest',
+51 silly cache add   type: 'tag' }
+52 silly addNamed laravel-mix@latest
+53 verbose addNamed "latest" is being treated as a dist-tag for laravel-mix
+54 info addNameTag [ 'laravel-mix', 'latest' ]
+55 silly mapToRegistry name laravel-mix
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry data Result {
+58 silly mapToRegistry   raw: 'laravel-mix',
+58 silly mapToRegistry   scope: null,
+58 silly mapToRegistry   escapedName: 'laravel-mix',
+58 silly mapToRegistry   name: 'laravel-mix',
+58 silly mapToRegistry   rawSpec: '',
+58 silly mapToRegistry   spec: 'latest',
+58 silly mapToRegistry   type: 'tag' }
+59 silly mapToRegistry uri https://registry.npmjs.org/laravel-mix
+60 verbose addNameTag registry:https://registry.npmjs.org/laravel-mix not in flight; fetching
+61 verbose get https://registry.npmjs.org/laravel-mix not expired, no request
+62 silly addNameTag next cb for laravel-mix with tag latest
+63 silly addNamed laravel-mix@0.5.1
+64 verbose addNamed "0.5.1" is a plain semver version for laravel-mix
+65 verbose get https://registry.npmjs.org/dev not expired, no request
+66 silly addNameTag next cb for dev with tag latest
+67 silly addNamed dev@0.1.3
+68 verbose addNamed "0.1.3" is a plain semver version for dev
+69 silly cache afterAdd laravel-mix@0.5.1
+70 verbose afterAdd /Users/pouria/.npm/laravel-mix/0.5.1/package/package.json not in flight; writing
+71 verbose correctMkdir /Users/pouria/.npm correctMkdir not in flight; initializing
+72 silly cache afterAdd dev@0.1.3
+73 verbose afterAdd /Users/pouria/.npm/dev/0.1.3/package/package.json not in flight; writing
+74 verbose correctMkdir /Users/pouria/.npm correctMkdir already in flight; waiting
+75 verbose afterAdd /Users/pouria/.npm/dev/0.1.3/package/package.json written
+76 verbose afterAdd /Users/pouria/.npm/laravel-mix/0.5.1/package/package.json written
+77 silly fetchNamedPackageData inotify
+78 silly mapToRegistry name inotify
+79 silly mapToRegistry using default registry
+80 silly mapToRegistry registry https://registry.npmjs.org/
+81 silly mapToRegistry data Result {
+81 silly mapToRegistry   raw: 'inotify',
+81 silly mapToRegistry   scope: null,
+81 silly mapToRegistry   escapedName: 'inotify',
+81 silly mapToRegistry   name: 'inotify',
+81 silly mapToRegistry   rawSpec: '',
+81 silly mapToRegistry   spec: 'latest',
+81 silly mapToRegistry   type: 'tag' }
+82 silly mapToRegistry uri https://registry.npmjs.org/inotify
+83 verbose get https://registry.npmjs.org/inotify not expired, no request
+84 silly resolveWithNewModule inotify@1.4.1 checking installable status
+85 silly rollbackFailedOptional Starting
+86 silly rollbackFailedOptional Finishing
+87 silly runTopLevelLifecycles Finishing
+88 silly install printInstalled
+89 verbose stack Error: Unsupported platform for inotify@1.4.1: wanted {"name":"inotify","version":"1.4.1","author":{"name":"Camilo Aguilar","email":"camilo.aguilar@gmail.com"},"email":"camilo.aguilar@gmail.com","keywords":["inotify","watch","monitor","watch files","watch directories"],"license":"MIT","description":"inotify bindings for v8 javascript engine","repository":{"type":"git","url":"git+ssh://git@github.com/c4milo/node-inotify.git"},"os":["linux"],"engines":{"node":">=0.8"},"main":"inotify","dependencies":{"bindings":"^1.2.1","nan":"^2.3.3"},"scripts":{"test":"node-gyp configure build","install":"node-gyp rebuild"},"gypfile":true,"contributors":[{"name":"Adrian Estrada","email":"edsadr@gmail.com"},{"name":"Alexander Makarenko","email":"estliberitas@gmail.com"},{"name":"Brian Ingalls","email":"bingalls@compete.com"},{"name":"Brian White","email":"mscdex@mscdex.net"},{"name":"Camilo Aguilar","email":"camilo.aguilar@gmail.com"},{"name":"Dan VerWeire","email":"dverweire@gmail.com"},{"name":"FrozenCow","email":"frozencow@gmail.com"},{"name":"Michael Boe","email":"mschuylerb@gmail.com"},{"name":"Yannick Croissant","email":"k1der.country@free.fr"},{"name":"ikokostya","email":"ikokostya@gmail.com"}],"gitHead":"c1416dfada3ca4f3fb40e65eededc52461822ec5","bugs":{"url":"https://github.com/c4milo/node-inotify/issues"},"homepage":"https://github.com/c4milo/node-inotify#readme","_id":"inotify@1.4.1","_shasum":"8abdeb7ee9cbc291542a252df00d848b2a8f9287","_from":"inotify@>= 0.1.6","_npmVersion":"3.8.6","_nodeVersion":"5.11.0","_npmUser":{"name":"c4milo","email":"camilo.aguilar@gmail.com"},"maintainers":[{"name":"camilo","email":"camilo@cloudescape.com"},{"name":"c4milo","email":"camilo.aguilar@gmail.com"}],"dist":{"shasum":"8abdeb7ee9cbc291542a252df00d848b2a8f9287","tarball":"https://registry.npmjs.org/inotify/-/inotify-1.4.1.tgz"},"_npmOperationalInternal":{"host":"packages-16-east.internal.npmjs.com","tmp":"tmp/inotify-1.4.1.tgz_1462444544613_0.7660284182056785"},"directories":{},"_resolved":"https://registry.npmjs.org/inotify/-/inotify-1.4.1.tgz","_requested":{"raw":"inotify@>= 0.1.6","scope":null,"escapedName":"inotify","name":"inotify","rawSpec":">= 0.1.6","spec":">=0.1.6","type":"range"},"_spec":"inotify@>= 0.1.6","_where":"/Users/pouria/Projects/coding4fun/vue-app/node_modules/dev","_args":[[{"raw":"inotify@>= 0.1.6","scope":null,"escapedName":"inotify","name":"inotify","rawSpec":">= 0.1.6","spec":">=0.1.6","type":"range"},"/Users/pouria/Projects/coding4fun/vue-app/node_modules/dev"]],"readme":"ERROR: No README data found!"} (current: {"os":"darwin","cpu":"x64"})
+89 verbose stack     at checkPlatform (/usr/local/lib/node_modules/npm/node_modules/npm-install-checks/index.js:45:14)
+89 verbose stack     at thenWarnEngineIssues (/usr/local/lib/node_modules/npm/lib/install/validate-args.js:41:5)
+89 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+89 verbose stack     at checkEngine (/usr/local/lib/node_modules/npm/node_modules/npm-install-checks/index.js:24:10)
+89 verbose stack     at module.exports.isInstallable (/usr/local/lib/node_modules/npm/lib/install/validate-args.js:38:3)
+89 verbose stack     at resolveWithNewModule (/usr/local/lib/node_modules/npm/lib/install/deps.js:494:10)
+89 verbose stack     at /usr/local/lib/node_modules/npm/lib/install/deps.js:437:9
+89 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+89 verbose stack     at /usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:37:12
+89 verbose stack     at addRequestedAndFinish (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:67:5)
+90 verbose pkgid inotify@1.4.1
+91 verbose cwd /Users/pouria/Projects/coding4fun/vue-app
+92 error Darwin 16.3.0
+93 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "laravel-mix" "--save" "dev"
+94 error node v4.4.7
+95 error npm  v3.10.8
+96 error code EBADPLATFORM
+97 error notsup Unsupported platform for inotify@1.4.1: wanted {"os":"linux","arch":"any"} (current: {"os":"darwin","arch":"x64"})
+98 error notsup Valid OS:    linux
+98 error notsup Valid Arch:  any
+98 error notsup Actual OS:   darwin
+98 error notsup Actual Arch: x64
+99 verbose exit [ 1, true ]
